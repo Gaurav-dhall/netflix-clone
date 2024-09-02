@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    opacity: 100%;
+    padding: 0;
+    /* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+
+#Layer_1{
+    transform: scale(73%);
+    width: 210px;
+    height: 61px;
+    fill: currentColor;
+    
+    color: rgb(229, 9, 20);
+    ;
+
+}
+.blackeffect{
+    filter:opacity(70%);
+    position: fixed;
+    
+    background-color: black;
+    width: 100vw;
+    height: 88vh;
+}
+
+
+.main_back{
+    filter: contrast(109%);
+    background-position: center;
+    width: 100vw;
+    height: 88vh;
+    border: 2px solid black;
+    background-image: url(./assets/images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{    transform: translate(-32px, 8px)scale(1.12);
+
+    column-gap: 135px;
+    filter: saturat(200%);
+    margin-top: 12px;
+
+    height: 55px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+.rightdiv{
+  
+    
+
+
+   
+    column-gap: 10px;
+}
+
+.BUTTONSTOP{
+    font-size: 200;
+    padding: 4px;
+    margin: 20px;
+    transform: scale(1.25);
+   
+    border-radius:2px;
+}
+.navblack{
+    background-color: black;
+    width: 100vw;
+    height: 12vh;
+    filter: opacity(50%);
+}
+
+.logodiv{
+
+    margin: 0;
+    padding: 0;
+}
+
+.lang{
+    font-weight: bolder;
+    padding: 3px 5px 3px 5px;
+    border: 2PX SOLID unset;
+    color: white;
+    height: 24px;
+    font-size: 11px;
+    width: 82px;
+    text-align:end;
+    background-color: unset;
+}
+.sig{
+    text-align: center;
+    height: 24px;
+    font-size: 10px;
+    width: 59px;
+    color: white;
+    font-weight: bolder;
+
+    border: unset;
+    background-color: red;
+}
+
+.head1{
+    font-size: 43px;
+    font-weight: 1000;
+    position: relative;
+    top: 27vh;
+    left: -5vw;
+    text-align: center;
+    color: white;
+
+}
+
+.head2{
+    font-size: 25px;
+    position: relative;
+    top: 29vh;
+    left: -2vw;
+    text-align: center;
+    color: white;
+}
+.head3{
+    font-size: 21px;
+    position: relative;
+    top:32vh;
+    left: -4vw;
+    text-align: center;
+    color: white;
+}
+
+input[type="email"]{
+    padding: 6px 30px;
+    margin: 0px;
+    width: 23vw;
+    border: 2px solid white;  /* White border when no address is added */
+    background-color: unset;
+    
+    border-radius: 2px;
+    font-size: 18px;
+    position: relative;
+    top: 0vh;
+    left:1.75vw;
+    height: 5vh;
+    /* text-align: center; */
+    color: white;
+}
+
+/* input[type="email"]:valid {
+    border-color: rgb(100, 248, 184);  /* Border turns red when a valid email is added */
+}
+
+/* input[type="email"]:valid,
+input[type="email"]:invalid {
+    background-color: transparent !important;
+} */ 
+
+#submit{
+
+    
+}
+
+.content{
+
+    transform: translate(71px, 74px);}
+
+.emailsetup{
+    column-gap: 5px;
+    justify-content: center;
+    width: 49vw;
+    display: flex;
+    left: 27vw;
+    top: 50vh;
+    position: relative;
+
+}
+
+
+.material-symbols-outlined {
+    z-index: 1;
+    align-self: center;
+    color: white;
+    font-size: 42px !important;
+    transform: translateX(-17px);
+    
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 40
+
+}
+
+.container1{
+    border-top: 5px solid rgb(58, 58, 58);
+    border-bottom: 5px solid rgb(58, 58, 58);
+    transform: translate(-2px, 73vh);
+    background-color: black;
+    width: 100vw;
+    height: 70vh;
+    border-collapse: collapse;
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    /* position: relative; */
+
+   
+}
+.container2{
+    border-top: 5px solid rgb(58, 58, 58);
+    border-bottom: 5px solid rgb(58, 58, 58);
+    transform: translate(-2px, 73vh);
+    background-color: black;
+    width: 100vw;
+    height: 70vh;
+    border-collapse: collapse;
+    display: flex;
+column-gap: 20px;
+justify-content: center;
+
+    /* position: relative; */
+
+   
+}
+.container3{
+    border-top: 5px solid rgb(58, 58, 58);
+    border-bottom: 5px solid rgb(58, 58, 58);
+    transform: translate(-2px, 73vh);
+    background-color: black;
+    width: 100vw;
+    height: 70vh;
+    border-collapse: collapse;
+    display: flex;
+column-gap: 20px;
+justify-content: center;
+
+    /* position: relative; */
+
+   
+}
+.container4{
+    border-top:5px solid rgb(58, 58, 58);
+    border-bottom: 5px solid rgb(58, 58, 58);
+    transform: translate(-2px, 73vh);
+    background-color: black;
+    width: 100vw;
+    height: 70vh;
+    border-collapse: collapse;
+    display: flex;
+column-gap: 20px;
+justify-content: center;
+
+    /* position: relative; */
+
+   
+}
+
+.description1{color: white;
+
+    width: 40vw;
+    align-content: center;
+}
+.description2{
+width: 40vw;
+color: white;
+align-content: center;
+}
+.description3{
+color: white;
+width: 40vw;
+align-content: center;
+}
+.description4{
+width: 40vw;
+color: white;
+align-content: center;
+}
+
+.demo1{
+width: 40vw;
+}
+.demo2{
+width: 40vw;
+
+}
+.demo3{
+width: 40vw;
+
+}   
+.demo4{
+width: 40vw;
+
+}
